@@ -100,7 +100,7 @@ argument and uses your Stack module to return a new stack with the
 following strings pushed in order: `"Computer"`, `"Science"`, `"51"`.
 ......................................................................*)
 
-let sample_stack () = fun _ -> 
+let sample_stack () =
   Stack.empty
   |> Stack.push "Computer"
   |> Stack.push "Science"

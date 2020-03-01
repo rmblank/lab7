@@ -57,10 +57,10 @@ temporary value pending your putting in appropriate ones.)
 
 module Math : MATH =
   struct
-    let pi = 3.14159;
-    let cos = cos;
-    let sin = sin;
-    let sum = (+.);
+    let pi = 3.14159
+    let cos = cos
+    let sin = sin
+    let sum = (+.)
     let rec max l = match l with
 		| [] -> None
 		| h :: t -> Some (List.fold_left max h t)

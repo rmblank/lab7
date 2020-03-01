@@ -92,7 +92,7 @@ order.
 
 let small_stack () : IntListStack.stack =
   let open IntListStack in
-    |> empty
+    empty
     |> push 5
     |> push 1 ;;
 
