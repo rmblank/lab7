@@ -122,7 +122,7 @@ methods*.
 ......................................................................*)
 
 let invert_stack (s : IntListStack.stack) : IntListStack.stack =
-  List.rev;;
+  List.rev s;;
 
 (* Now what would be the result of the top operation on a stack
 inverted with `invert_stack`? Let's try it.

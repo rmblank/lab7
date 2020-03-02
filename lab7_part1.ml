@@ -61,9 +61,10 @@ module Math : MATH =
     let cos = cos
     let sin = sin
     let sum = (+.)
-    let rec max l = match l with
-		| [] -> None
-		| h :: t -> Some (List.fold_left max h t)
+    let max l = 
+      match l with
+        | [] -> None
+	| h :: t -> Some (List.fold_left max h t)
   end ;;
 
 (*......................................................................
